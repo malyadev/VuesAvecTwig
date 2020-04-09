@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Produits de première nécessité en période de confinement {% endblock %}
+
+
+
+{% block content %}
+    <h1 id="confine">Confinement : Les produits nécéssité absolue </h1>
+
+    <div class="row">
+            {% for beer in beers %}
+                <div class="col-4 black">
+                     <div class="card">
+                         <div class="card-body">
+                            <p class="card-title">{{ beer }}</p>
+                        </div>
+                     </div>
+                </div>
+            {% endfor %}
+        </div>
+{% endblock %}

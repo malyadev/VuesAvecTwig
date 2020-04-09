@@ -1,0 +1,15 @@
+img {
+    width: 80px;
+}
+
+.card {
+    width: 18rem;
+}
+
+p, h1 {
+    text-align: center;
+}
+
+.card {
+    margin: 10pt;
+}

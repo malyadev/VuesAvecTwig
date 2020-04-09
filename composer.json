@@ -1,0 +1,13 @@
+{
+    "name": "yannou/twiglearning",
+    "description": "Apprentissage de twig",
+    "authors": [
+        {
+            "name": "malyadev",
+            "email": "malyadev248@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
